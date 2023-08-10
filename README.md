@@ -4,8 +4,8 @@ Right/left/full window tiling plugin for Hammerspoon (a.k.a. a 'Spoon').
 
 ## Installing
 
-Download a release Halfsee.zip (or build one from source) and extract it to
-your `~/.hammerspoon/Spoons/` directory.
+Download a released Halfsee.spoon.zip (or build one from source) and extract it
+to your `~/.hammerspoon/Spoons/` directory.
 
 ### Configuration
 

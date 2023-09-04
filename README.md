@@ -4,7 +4,7 @@ Right/left/full window tiling plugin for MacOS (similar to Windows 7+ window sna
 
 ## Installing
 
-Download a [released Halfsee.spoon.zip](github.com/gorjusborg/Halfsee.spoon/releases) (or build one from source) and extract it to your `~/.hammerspoon/Spoons/` directory, for example installing Halfsee v1.0.0:
+Download a [released Halfsee.spoon.zip](/releases) (or build one from source) and extract it to your `~/.hammerspoon/Spoons/` directory, for example installing Halfsee v1.0.0:
 
 ```bash
 wget github.com/gorjusborg/Halfsee.spoon/releases/tag/v1.0.0/Halfsee.spoon.zip

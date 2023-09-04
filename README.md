@@ -1,15 +1,19 @@
 # Halfsee.spoon
 
-Right/left/full window tiling plugin for Hammerspoon (a.k.a. a 'Spoon').
+Right/left/full window tiling plugin for MacOS (similar to Windows 7+ window snapping) plugin for Hammerspoon.
 
 ## Installing
 
-Download a released Halfsee.spoon.zip (or build one from source) and extract it
-to your `~/.hammerspoon/Spoons/` directory.
+Download a [released Halfsee.spoon.zip](github.com/gorjusborg/Halfsee.spoon/releases) (or build one from source) and extract it to your `~/.hammerspoon/Spoons/` directory, for example installing Halfsee v1.0.0:
+
+```bash
+wget github.com/gorjusborg/Halfsee.spoon/releases/tag/v1.0.0/Halfsee.spoon.zip
+unzip -d ~/.hammerspoon/Spoons/ Halfsee.spoon.zip
+```
 
 ### Configuration
 
-You'll need to add the following to your `~/.hammerspoon/init.lua` config:
+After installing the spoon, you'll need to add the following to your `~/.hammerspoon/init.lua` config to map it to the keys you want:
 
 ```lua
 local Halfsee = hs.loadSpoon("Halfsee")
@@ -22,5 +26,5 @@ Halfsee:bindHotKeys({
 })
 ```
 
-After adding that to your `init.lua`, reload hammerspoon.
+After updating your `.hammerspoon/init.lua`, reload hammerspoon.
 
